@@ -6,7 +6,7 @@ from queue import Queue
 import time 
 
 # Constants
-IP = '10.10.190.204'
+IP = input("Please enter your IP address: ")
 PORTS = range(1, 65500)
 THREAD_LIMIT = 100  # Adjust this based on your system and network capacity
 
