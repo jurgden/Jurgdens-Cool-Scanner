@@ -14,7 +14,7 @@ THREAD_LIMIT = 100  # Adjust this based on your system and network capacity
 open_ports = Queue()
 
 # Print banner
-ascii_banner = pyfiglet.figlet_format("JJS \n Sexy Python \nPort Scanner")
+ascii_banner = pyfiglet.figlet_format("Jurgdens \nc00l Python \nPort Scanner")
 print(ascii_banner)
 
 def probe_port(ip, port):
