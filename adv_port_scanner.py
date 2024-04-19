@@ -58,6 +58,11 @@ for port in PORTS:
 # Wait for the queue to be empty
 port_queue.join()
 
+
+# Calculate total runtime
+end_time = time.time()
+total_time = end_time - start_time
+
 # Gather and print results
 results = []
 while not open_ports.empty():
